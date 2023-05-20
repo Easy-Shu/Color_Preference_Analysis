@@ -1,7 +1,9 @@
 library(plot3D)
 library(colorspace)
 library(RColorBrewer)
-setwd("C:/Users/xinyu/OneDrive - The Hong Kong Polytechnic University/Desktop/Color_Science/4. Product Color Analysis/Matlab_R")
+
+#Path should be changed 
+setwd("Color_Preference_Analysis/3D_Figures/")
 
 df<-read.table("Solid_Color_Shirts.txt",header=TRUE)
 N<-nrow(df)
