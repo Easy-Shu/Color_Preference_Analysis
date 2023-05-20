@@ -94,7 +94,7 @@ with(df, text3D(x =a, y = b, z = L, labels = df$N,
 
 #----------------------------------------------------
 
-df<-read.csv("../LCH_L50_1.csv",sep=",",header=TRUE)
+df<-read.csv("LCH_L50_1.csv",sep=",",header=TRUE)
 N<-nrow(df)
 
 List_color<-c()
@@ -118,7 +118,7 @@ with(df, scatter3D(x = H, y = C, z = DL_male, colvar  = 1:N,
                    colkey = FALSE)#list(length = 0.5, width = 0.5, cex.clab = 0.75))
 )
 
-df2<-read.csv("../LCH_L50_2.csv",sep=",",header=TRUE)
+df2<-read.csv("LCH_L50_2.csv",sep=",",header=TRUE)
 C<- seq(0,100,5)
 H <- seq(0,360,15)
 
